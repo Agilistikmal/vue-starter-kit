@@ -15,7 +15,7 @@ defineProps({
 
 <template>
   <button :class="`px-5 py-2 rounded-lg text-nowrap ${bg} ${color}`">
-    <div class="flex items-center gap-2">
+    <div class="flex gap-2 w-max mx-auto">
       <slot name="icon"></slot>
       <slot name="text"></slot>
     </div>
